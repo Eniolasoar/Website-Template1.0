@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: COPPERPLATE;
 }
 
 .slideshow-container{
@@ -37,7 +38,7 @@ img{
 
 nav{
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 10px;
 }
 nav ul{
@@ -62,8 +63,54 @@ nav ul li a:hover{
    
    
 }
-li a{
+nav li a{
     padding: 20px;
     box-shadow: 2px 2px 3px  black;
     background-color: rgba(0, 102, 204,50%);
+}
+
+#button{
+    padding: 30px;
+    box-shadow: 2px 2px 3px  black;
+    background-color: rgba(0, 102, 204,70%);
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: COPPERPLATE;
+    text-decoration: none;
+}
+#button:hover{
+    background-color: rgba(0, 102, 204,100%);
+}
+
+@media screen and (max-width: 600px){
+    .text{
+        width: 90%;
+        font-size: 60px;
+    }
+    nav{
+        width: 100%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+    }
+
+  
+    li{
+        margin: 7px 1px;
+    }
+    #testimonials{
+        margin-left: 90px;
+    }
+    #button{
+        bottom:100px;
+    }
 }

@@ -22,7 +22,7 @@ function slideshow(){
 }
 
 var typed=new Typed(".auto-type",{
-    strings:["Welcome To SOARACADEMY "],
+    strings:["Welcome To SOAR ACADEMY "],
     typeSpeed:150,
     loop:true
 });
