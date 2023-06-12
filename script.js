@@ -22,9 +22,11 @@ function slideshow(){
 }
 
 var typed=new Typed(".auto-type",{
-    strings:["Welcome To SOAR ACADEMY "],
+    strings:["Welcome To <span style='color:rgb(204, 100, 0);'>EMPIRE ACADEMY</span> "],
     typeSpeed:150,
     loop:true
 });
+
+
 
 

@@ -8,48 +8,60 @@
     <title>PROJECT TEST</title>
 </head>
 <body>
-    <div class="slideshow-container">
-        <div class="slide">
-            <img src="img_mountains.jpeg" alt="">
-            
+    <section>
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="img_mountains.jpeg" alt="">
+                
+            </div>
+    
+            <div class="slide">
+                <img src="buiding2.png" alt="">
+                
+            </div>
+    
+            <div class="slide">
+                <img src="image1.jpeg" alt="">
+                
+            </div>
+    
+            <div class="slide">
+                <img src="library.png" alt="">
+                
+            </div>
+    
+            <div class="text">
+                <span class="auto-type"></span>
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li id="testimonials"><a href="">TESTIMONIALS</a></li>
+                </ul>
+            </nav>
+    
+            <a href="" id="button">Click To Begin</a>
         </div>
-
-        <div class="slide">
-            <img src="buiding2.png" alt="">
-            
+        <script src="script.js"></script>
+    
+    </section>
+    
+    <section class="section2">
+        <h2>About Us</h2>
+        <div class="flex-container1">
+            <img src="images.jpeg" alt="a consultant" width="500" height="300" id="image1" class="hiddenPage">
+            <span class="auto-type2"></span>
         </div>
-
-        <div class="slide">
-            <img src="image1.jpeg" alt="">
-            
-        </div>
-
-        <div class="slide">
-            <img src="library.png" alt="">
-            
-        </div>
-
-        <div class="text">
-            <span class="auto-type"></span>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li id="testimonials"><a href="">TESTIMONIALS</a></li>
-            </ul>
-        </nav>
-
-        <a href="" id="button">Click To Begin</a>
-    </div>
-    <script src="script.js"></script>
-
-    <div class="dot">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+        <script src="intersection.js"></script>
+        <script>
+            var typed2=new Typed(".auto-type2",{
+    strings:["We are an organisation devoted in impacting you with the necessary knowledge you need to be a world-class student.We pride in giving you the best educational services needed. "],
+    typeSpeed:30
+});
+        </script>
+    </section>
 </body>
 </html>
