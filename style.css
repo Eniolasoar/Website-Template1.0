@@ -68,7 +68,10 @@ nav li a{
     padding: 20px;
     box-shadow: 2px 2px 3px  black;
     background-color: rgba(0, 102, 204,50%);
+    box-shadow: 2px 2px black;
+    transition: 2s all;
 }
+
 
 #button{
     padding: 20px;
@@ -89,6 +92,9 @@ nav li a{
 }
 #button:hover{
     background-color: rgba(204, 100, 0,100%);
+}
+#button:active{
+    transform: translate(-50%,0px);
 }
 
 .flex-container1{
