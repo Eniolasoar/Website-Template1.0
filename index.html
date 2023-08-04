@@ -7,77 +7,86 @@
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script> 
     <title>PROJECT TEST</title>
 </head>
-<body>
-    <section>
-        <div class="slideshow-container">
-            <div class="slide">
-                <img src="img_mountains.jpeg" alt="">
-                
-            </div>
-    
-            <div class="slide">
-                <img src="buiding2.png" alt="">
-                
-            </div>
-    
-            <div class="slide">
-                <img src="image1.jpeg" alt="">
-                
-            </div>
-    
-            <div class="slide">
-                <img src="library.png" alt="">
-                
-            </div>
-    
-            <div class="text">
-                <span class="auto-type"></span>
-            </div>
-    
-            <nav>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li id="testimonials"><a href="">TESTIMONIALS</a></li>
-                </ul>
-            </nav>
-    
-            <a href="#section1" id="button">Click To Begin</a>
-        </div>
-        <script src="script.js"></script>
-    
+<body class="loader-body" onload="loader()">
+    <section class="loader-section">
+        <div class="loader"></div>
+        <p>Project Loading.....</p>
     </section>
-    
-    <section class="section2" id="section1">
-        <h2>About Us</h2>
-        <div class="flex-container1">
-            <img src="images.jpeg" alt="a consultant" width="500" height="300" id="image1" class="hiddenPage">
-            <span id="textType"></span>
-        </div>
-      
-    </section>
+    <main id="page-content">
+        <section class="section1">
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="img_mountains.jpeg" alt="">
+                    
+                </div>
+        
+                <div class="slide">
+                    <img src="buiding2.png" alt="">
+                    
+                </div>
+        
+                <div class="slide">
+                    <img src="image1.jpeg" alt="">
+                    
+                </div>
+        
+                <div class="slide">
+                    <img src="library.png" alt="">
+                    
+                </div>
+        
+                <div class="text">
+                    <span class="auto-type"></span>
+                </div>
+        
+                <nav>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li id="testimonials"><a href="">TESTIMONIALS</a></li>
+                    </ul>
+                </nav>
+        
+                <a href="#section1" id="button">Click To Begin</a>
+            </div>
+            <script src="script.js"></script>
+        
+        </section>
+        
+        <section class="section2" id="section1">
+            <h2>About Us</h2>
+            <div class="flex-container1">
+                <img src="images.jpeg" alt="a consultant" width="500" height="300" id="image1" class="hiddenPage">
+                <span id="textType"></span>
+            </div>
+        
+        </section>
 
-    <section class="section3">
-        <h2>Services We Offer</h2>
-        <div class="services">
-            <div class="service">
-                <div class="number">1</div>
-                <h3>Quality Educational Services</h3>
-                <p>We pride in having the best quality educational services..........................</p>
+        <section class="section3">
+            <h2>Services We Offer</h2>
+            <div class="services">
+                <div class="service">
+                    <div class="number">1</div>
+                    <h3>Quality Educational Services</h3>
+                    <p>We pride in having the best quality educational services..........................</p>
+                </div>
+                <div class="service">
+                    <div class="number">2</div>
+                    <h3>Conducive Environment</h3>
+                    <p>Our learning service comes with a conducive Environment............................</p>
+                </div>
+                <div class="service">
+                    <div class="number">3</div>
+                    <h3>Experienced Teaching Staff</h3>
+                    <p>Our teaching staff are topnotch in the industry.We employ only the best...................</p>
+                </div>
             </div>
-            <div class="service">
-                <div class="number">2</div>
-                <h3>Conducive Environment</h3>
-                <p>Our learning service comes with a conducive Environment............................</p>
-            </div>
-            <div class="service">
-                <div class="number">3</div>
-                <h3>Experienced Teaching Staff</h3>
-                <p>Our teaching staff are topnotch in the industry.We employ only the best...................</p>
-            </div>
-        </div>
-        <script src="intersection.js"></script>
-    </section>
+            <script src="intersection.js"></script>
+        </section>
+
+        
+    </main>
 </body>
+<script src="loader.js"></script>
 </html>
