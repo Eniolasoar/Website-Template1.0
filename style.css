@@ -8,7 +8,6 @@
 
 .slideshow-container{
     width: 100%;
-    margin: auto;
     position: relative;
   
 }
@@ -25,14 +24,14 @@
 .text{
     font-weight: 900;
     font-family: COPPERPLATE;
-    font-size: 100px;
+    font-size: 60px;
     color: #0066CC;
     /* background-color: white; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    width: 80%;
+    width: 600px;
     text-align: center;
 }
 
@@ -55,6 +54,10 @@ nav ul li a{
     font-size: 20px;
     font-weight: 900;
     text-decoration: none;
+    box-shadow: 2px 2px 3px  black;
+    background-color: rgba(0, 102, 204,50%);
+    box-shadow: 2px 2px black;
+    transition: 1s all;
 
 }
 
@@ -65,13 +68,7 @@ nav ul li a:hover{
    
    
 }
-nav li a{
-    padding: 20px;
-    box-shadow: 2px 2px 3px  black;
-    background-color: rgba(0, 102, 204,50%);
-    box-shadow: 2px 2px black;
-    transition: 2s all;
-}
+
 
 
 #button{

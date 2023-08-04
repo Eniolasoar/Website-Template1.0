@@ -1,20 +1,17 @@
-function handleIntersection(entries) {
-    entries.map((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('showPage');
-      } else {
-        entry.target.classList.remove('showPage');
-      }
-    });
-  }
 
-const options = {
-    threshold: 0.75,
-  }
+const test=new IntersectionObserver((entries)=>{
+  entries.map((entry)=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('showPage')
+    }
+    else {
+      entry.target.classList.remove('showPage');
+    }
+  })
+});
 
 const target=document.querySelector(".hiddenPage");
-const observer=new IntersectionObserver(handleIntersection);
-observer.observe(target)
+test.observe(target);
 
 function handleIntersection2(entries2){
   entries2.map((entry)=>{
